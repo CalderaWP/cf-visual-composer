@@ -25,7 +25,7 @@ class CF_VC_Module {
 		vc_map( array(
 			'name'        => __( 'Caldera Forms', 'caldera-forms-vc' ),
 			'base'        => CF_VC_Base::BASE,
-			//'icon'        => plugins_url( 'assets/img/icon.png', __FILE__ ),
+			'icon'        => plugins_url( 'icon.png', dirname( __FILE__ ) ),
 			'category'    => __( 'Content', 'caldera-forms-vc' ),
 			'description' => __( 'Add a Caldera Form', 'caldera-forms-vc' ),
 			'params'      => self::get_params()
