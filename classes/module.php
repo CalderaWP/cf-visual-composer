@@ -115,7 +115,7 @@ class CF_VC_Module {
 	protected static function button_text_param(){
 		return array(
 			'type'        => 'textfield',
-			'heading'     => __( 'Text Form Button To Open Modal', 'caldera-forms-vc' ),
+			'heading'     => __( 'Text For Button To Open Modal', 'caldera-forms-vc' ),
 			'param_name'  => 'modal_text',
 			'value'       => __( 'Open Form', 'cf-vc'),
 			'description' => __( 'Text for modal button', 'caldera-forms-vc' )
